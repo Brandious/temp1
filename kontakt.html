@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HelloWorld | Kontakt</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">
+                    <a href="index.html">Hello<span class="text-primary">World</span></a>
+                </h1>
+
+                <ul>
+                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="onama.html">O nama</a></li>
+                    <li><a class="current" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading">
+                <span class="text-primary">Javite</span> nam se
+            </h1>
+
+            <p>Popunite formu, javimo vam se u najbrzem roku!</p>
+
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="Ime">Ime</label>
+                    <input type="text" name="ime" id="ime">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" name="email" id="email">
+                    
+                </div>
+
+                <div class="form-group">
+                    <label for="Poruka">Poruka</label>
+                    <textarea name="poruka" id="poruka"></textarea>
+                </div>
+
+                <button type="submit" class="btn">
+                    Posalji
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+            <div class="container">
+                <div class="box" >
+                    <i class="fas fa-map-marker-alt fa-3x"></i>
+                    <h3>Adresa</h3>
+                    <p>Brcko, Brcanska bb</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-phone fa-3x"></i>
+                    <h3>Telefon</h3>
+                    <p>+387 62 111 111 <br> +387 63 111 111 <br> +387 65 111 111</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-envelope fa-3x"></i>
+                    <h3>Najbrza usluga</h3>
+                    <p>helloworld@gmail.com<br>prodaja@helloworld.com</p>
+                </div>
+            </div>
+    </section>
+
+    
+        <footer id="main-footer">
+        <p>&copy; 2019, By <span class='text-primary'>Brand</span>ious</p>
+    </footer>
+</body>
+
+</html>
